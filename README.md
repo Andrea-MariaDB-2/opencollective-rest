@@ -12,7 +12,7 @@ If you see a step below that could be improved (or is outdated), please update t
 
 1. Make sure you have Node.js version >= 12.
 
-- We recommend using [nvm](https://github.com/creationix/nvm): `nvm use`.
+- We recommend using [nvm](https://github.com/creationix/nvm): `nvm install && nvm use`.
 
 ### Install
 
@@ -69,7 +69,7 @@ about to deploy. It is not required, but you can activate it like this:
 3. Add this token to your `.env` file:
 
 ```bash
-OC_SLACK_USER_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+OC_SLACK_DEPLOY_WEBHOOK=https://hooks.slack.com/services/....
 ```
 
 ### Staging (heroku)
